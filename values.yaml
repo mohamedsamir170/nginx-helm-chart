@@ -1,13 +1,10 @@
 replicaCount: 1
-
 image:
   repository: nginx
   pullPolicy: IfNotPresent
-  tag: "1.25"
-
+  tag: "505954163bc44eabf1a510d5ce19ae109b5cc158"
 service:
   type: ClusterIP
   port: 80
   targetPort: 80
-  
 resources: {}
