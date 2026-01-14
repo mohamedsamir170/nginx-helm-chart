@@ -1,10 +1,11 @@
 replicaCount: 1
+imagePullSecret: ecr-creds
 image:
   repository: nginx
   pullPolicy: IfNotPresent
-  tag: "1.5"
+  tag: "7bb23ca41cebc6195d63a9d06e415b6a0dbcf034"
 service:
-  type: ClusterIP
+  type: NodePort
   port: 81
   targetPort: 80
 resources: {}
