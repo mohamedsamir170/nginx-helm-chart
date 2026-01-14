@@ -1,7 +1,7 @@
 replicaCount: 1
 imagePullSecret: ecr-creds
 image:
-  repository: mohamed-nginx
+  repository: 624792314775.dkr.ecr.us-west-2.amazonaws.com/mohamed-nginx
   pullPolicy: IfNotPresent
   tag: "7bb23ca41cebc6195d63a9d06e415b6a0dbcf034"
 service:
