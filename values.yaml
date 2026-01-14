@@ -2,7 +2,7 @@ replicaCount: 1
 image:
   repository: nginx
   pullPolicy: IfNotPresent
-  tag: "505954163bc44eabf1a510d5ce19ae109b5cc158"
+  tag: "7bb23ca41cebc6195d63a9d06e415b6a0dbcf034"
 service:
   type: ClusterIP
   port: 80
