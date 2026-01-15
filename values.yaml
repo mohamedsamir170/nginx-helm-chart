@@ -3,7 +3,7 @@ imagePullSecret: ecr-creds
 image:
   repository: 624792314775.dkr.ecr.us-west-2.amazonaws.com/mohamed-nginx
   pullPolicy: IfNotPresent
-  tag: "7bb23ca41cebc6195d63a9d06e415b6a0dbcf034"
+  tag: "80671acea6ee0f78d69c1ba1defdde719ac86635"
 service:
   type: NodePort
   port: 80
