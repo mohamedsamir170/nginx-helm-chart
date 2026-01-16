@@ -5,6 +5,7 @@ metadata:
   labels:
     app: nginx
     release: {{ .Release.Name }}
+  namespace: {{ .Values.namespace }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:

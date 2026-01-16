@@ -4,6 +4,7 @@ image:
   repository: 624792314775.dkr.ecr.us-west-2.amazonaws.com/mohamed-nginx
   pullPolicy: IfNotPresent
   tag: "7bb23ca41cebc6195d63a9d06e415b6a0dbcf034"
+namespace: nginx-project
 service:
   type: NodePort
   port: 80
