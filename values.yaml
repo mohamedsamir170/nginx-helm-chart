@@ -1,5 +1,6 @@
 replicaCount: 1
 imagePullSecret: ecr-creds
+namespace: nginx-project
 image:
   repository: 624792314775.dkr.ecr.us-west-2.amazonaws.com/mohamed-nginx
   pullPolicy: IfNotPresent
