@@ -6,7 +6,7 @@ image:
   pullPolicy: IfNotPresent
   tag: "80671acea6ee0f78d69c1ba1defdde719ac86635"
 service:
-  type: NodePort
+  type: ClusterIp
   port: 80
   targetPort: 80
 resources:
